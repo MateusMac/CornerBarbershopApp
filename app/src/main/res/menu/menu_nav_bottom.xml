@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_house_24dp"
+        android:title="@string/nav_home" />
+    <item
+        android:id="@+id/navigation_agenda"
+        android:icon="@drawable/ic_calendario_24dp"
+        android:title="@string/nav_agenda" />
+    <item
+        android:id="@+id/navigation_portifolio"
+        android:icon="@drawable/ic_album_24dp"
+        android:title="@string/txt_portfolio" />
+    <item
+        android:id="@+id/navigation_fidelidade"
+        android:icon="@drawable/ic_hands_24dp"
+        android:title="@string/nav_fidelidade" />
+
+</menu>
