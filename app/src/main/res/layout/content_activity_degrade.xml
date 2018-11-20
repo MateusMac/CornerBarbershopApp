@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".ativities.PortfolioActivity">
+    tools:context=".ativities.DegradeActivity">
 
     <android.support.constraint.Guideline
         android:id="@+id/glContDegrade"
@@ -23,7 +23,7 @@
         android:clickable="true"
         android:contentDescription="@string/txt_degrade"
         android:focusable="true"
-        android:onClick="abrirDegrade"
+        android:onClick="abreCorteX"
         android:scaleType="centerCrop"
         app:layout_constraintEnd_toStartOf="@+id/glContDegrade"
         app:layout_constraintStart_toStartOf="parent"
@@ -39,7 +39,7 @@
         android:clickable="true"
         android:contentDescription="@string/txt_degrade"
         android:focusable="true"
-        android:onClick="abrirDegrade"
+        android:onClick="abreCorteX"
         android:scaleType="centerCrop"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/glContDegrade"
