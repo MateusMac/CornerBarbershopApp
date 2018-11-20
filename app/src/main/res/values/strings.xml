@@ -31,6 +31,8 @@
     <string name="txt_agendado">Agendado com:</string>
     <string name="txt_agendar">Agendar</string>
     <string name="txt_barbeiro">Barbeiro</string>
+    <string name="tab_masculino">Masculino</string>
+    <string name="tab_feminino">Feminino</string>
 
     <string name="nav_home">Início</string>
     <string name="nav_agenda">Agenda</string>
@@ -43,4 +45,6 @@
     <string name="desc_corte_longo">Corte longo</string>
     <string name="desc_corte_curto">Corte curto</string>
     <string name="desc_foto_barbeiro">Foto do barbeiro</string>
+
+    <string name="section_format">Hello World from section: %1$d</string>
 </resources>
