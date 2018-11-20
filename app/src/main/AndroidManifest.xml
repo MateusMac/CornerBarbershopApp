@@ -23,6 +23,7 @@
         <activity android:name=".ativities.MainActivity" />
         <activity android:name=".ativities.PortfolioActivity" />
         <activity android:name=".ativities.DegradeActivity" />
+        <activity android:name=".ativities.CorteXActivity" />
     </application>
 
 </manifest>

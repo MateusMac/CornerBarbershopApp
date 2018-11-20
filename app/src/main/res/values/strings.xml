@@ -17,6 +17,8 @@
     <string name="txt_degrade">Degrade</string>
     <string name="txt_longo">Longo</string>
     <string name="txt_curto">Curto</string>
+    <string name="txt_nome_barbeiro">Nome Barbeiro</string>
+    <string name="txt_cortex">Corte X</string>
 
     <string name="nav_home">Início</string>
     <string name="nav_agenda">Agenda</string>
@@ -28,4 +30,5 @@
     <string name="desc_corte_degrade">Corte degrade</string>
     <string name="desc_corte_longo">Corte longo</string>
     <string name="desc_corte_curto">Corte curto</string>
+    <string name="desc_foto_barbeiro">Foto do barbeiro</string>
 </resources>
