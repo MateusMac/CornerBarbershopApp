@@ -25,6 +25,8 @@
     <string name="txt_selecione_data">29/10/2018</string>
     <string name="txt_9h">09:00</string>
     <string name="txt_10h">10:00</string>
+    <string name="txt_12h">12:00</string>
+    <string name="txt_17h">17:00</string>
 
     <string name="nav_home">Início</string>
     <string name="nav_agenda">Agenda</string>

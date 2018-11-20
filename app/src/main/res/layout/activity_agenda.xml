@@ -64,7 +64,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="64dp"
         android:background="@color/colorDourado"
+        android:clickable="true"
         android:drawableEnd="@drawable/ic_arrow_right_black_24dp"
+        android:focusable="true"
         android:paddingStart="50dp"
         android:paddingTop="3dp"
         android:paddingEnd="5dp"
@@ -82,7 +84,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:background="@color/colorDourado"
+        android:clickable="true"
         android:drawableEnd="@drawable/ic_arrow_right_black_24dp"
+        android:focusable="true"
         android:paddingStart="50dp"
         android:paddingTop="3dp"
         android:paddingEnd="5dp"
@@ -93,5 +97,54 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvHoraAgenda" />
+
+    <TextView
+        android:id="@+id/tvHoraAgenda3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="62dp"
+        android:background="@color/colorDourado"
+        android:clickable="true"
+        android:drawableEnd="@drawable/ic_arrow_right_black_24dp"
+        android:focusable="true"
+        android:paddingStart="50dp"
+        android:paddingTop="3dp"
+        android:paddingEnd="5dp"
+        android:paddingBottom="3dp"
+        android:text="@string/txt_12h"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvHoraAgenda2" />
+
+    <TextView
+        android:id="@+id/tvHoraAgenda4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:background="@color/colorDourado"
+        android:clickable="true"
+        android:drawableEnd="@drawable/ic_arrow_right_black_24dp"
+        android:focusable="true"
+        android:paddingStart="50dp"
+        android:paddingTop="3dp"
+        android:paddingEnd="5dp"
+        android:paddingBottom="3dp"
+        android:text="@string/txt_17h"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvHoraAgenda3" />
+
+    <include
+        android:id="@+id/includeNavAgenda"
+        layout="@layout/nav_bottom"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </android.support.constraint.ConstraintLayout>
