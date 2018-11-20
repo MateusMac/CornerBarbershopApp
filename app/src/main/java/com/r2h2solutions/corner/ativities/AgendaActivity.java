@@ -2,6 +2,7 @@ package com.r2h2solutions.corner.ativities;
 
 import android.os.Bundle;
 import android.support.design.widget.BottomNavigationView;
+import android.view.View;
 
 import com.r2h2solutions.corner.R;
 
@@ -22,5 +23,10 @@ public class AgendaActivity extends BottomNavigationActivity {
 
         BottomNavigationView navigation = findViewById(R.id.navigation_bottom);
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
+    }
+
+    public void abrirServico(View view) {
+
+        openIntent(ServicoActivity.class);
     }
 }

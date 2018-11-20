@@ -26,6 +26,7 @@
         <activity android:name=".ativities.CorteXActivity" />
         <activity android:name=".ativities.FidelidadeActivity" />
         <activity android:name=".ativities.AgendaActivity" />
+        <activity android:name=".ativities.ServicoActivity" />
     </application>
 
 </manifest>
