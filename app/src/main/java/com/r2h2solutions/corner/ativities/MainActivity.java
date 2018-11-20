@@ -23,7 +23,7 @@ public class MainActivity extends BaseActivity {
 
     public void abrirPortfolio(View view) {
 
-        //openIntent(PortfolioActivity.class);
+        openIntent(PortfolioActivity.class);
     }
 
     public void abrirAgenda(View view) {

@@ -21,6 +21,7 @@
         <activity android:name=".ativities.LoginActivity" />
         <activity android:name=".ativities.CadastroActivity" />
         <activity android:name=".ativities.MainActivity" />
+        <activity android:name=".ativities.PortfolioActivity" />
     </application>
 
 </manifest>

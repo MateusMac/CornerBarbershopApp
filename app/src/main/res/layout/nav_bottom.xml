@@ -7,7 +7,7 @@
     android:orientation="vertical">
 
     <android.support.design.widget.BottomNavigationView
-        android:id="@+id/nav_bottom"
+        android:id="@+id/navigation_bottom"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:background="@android:color/black"

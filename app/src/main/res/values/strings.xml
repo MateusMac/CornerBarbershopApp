@@ -10,7 +10,6 @@
     <string name="txt_nome">Nome</string>
     <string name="txt_email">E-mail</string>
     <string name="txt_cadastrar">Cadastrar</string>
-
     <string name="txt_portfolio">Portfólio</string>
     <string name="txt_cat_corte">Categorias de corte</string>
     <string name="txt_famosos">Famosos</string>
@@ -24,8 +23,9 @@
     <string name="nav_fidelidade">Fidelidade</string>
 
     <string name="desc_logo">Corner Logo</string>
-    <string name="title_activity_bottom_nav">BottomNavActivity</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="desc_corte_famoso">Cortes famosos</string>
+    <string name="desc_corte_enrolado">Corte enrolado</string>
+    <string name="desc_corte_degrade">Corte degrade</string>
+    <string name="desc_corte_longo">Corte longo</string>
+    <string name="desc_corte_curto">Corte curto</string>
 </resources>

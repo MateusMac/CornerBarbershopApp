@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ativities.PortfolioActivity">
+
+    <android.support.constraint.Guideline
+        android:id="@+id/glContentPortfolio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.7" />
+
+    <TextView
+        android:id="@+id/tvFamososPorfolio"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="55dp"
+        android:drawableBottom="@drawable/ot_underline_text"
+        android:text="@string/txt_famosos"
+        android:textColor="@color/colorDourado"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/glContentPortfolio"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imgFamososPortfolio"
+        android:layout_width="78dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:contentDescription="@string/desc_corte_famoso"
+        android:scaleType="centerCrop"
+        android:src="@drawable/img_foto"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/tvFamososPorfolio"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvEnroladoPortfolio"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="52dp"
+        android:drawableBottom="@drawable/ot_underline_text"
+        android:text="@string/txt_enrolado"
+        android:textColor="@color/colorDourado"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/glContentPortfolio"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvFamososPorfolio" />
+
+    <ImageView
+        android:id="@+id/imgEnroladoPortfolio"
+        android:layout_width="78dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="16dp"
+        android:contentDescription="@string/desc_corte_enrolado"
+        android:scaleType="centerCrop"
+        android:src="@drawable/img_foto"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/glContentPortfolio"
+        app:layout_constraintTop_toBottomOf="@+id/imgFamososPortfolio" />
+
+    <TextView
+        android:id="@+id/tvDegradePortfolio"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="52dp"
+        android:drawableBottom="@drawable/ot_underline_text"
+        android:text="@string/txt_degrade"
+        android:textColor="@color/colorDourado"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/glContentPortfolio"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvEnroladoPortfolio" />
+
+    <ImageView
+        android:id="@+id/imgDegradePortfolio"
+        android:layout_width="78dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="16dp"
+        android:contentDescription="@string/desc_corte_degrade"
+        android:scaleType="centerCrop"
+        android:src="@drawable/img_foto"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/glContentPortfolio"
+        app:layout_constraintTop_toBottomOf="@+id/imgEnroladoPortfolio" />
+
+    <TextView
+        android:id="@+id/tvLongoPortfolio"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="52dp"
+        android:drawableBottom="@drawable/ot_underline_text"
+        android:text="@string/txt_longo"
+        android:textColor="@color/colorDourado"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/glContentPortfolio"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvDegradePortfolio" />
+
+    <ImageView
+        android:id="@+id/imgLongoPortfolio"
+        android:layout_width="78dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="16dp"
+        android:contentDescription="@string/desc_corte_longo"
+        android:scaleType="centerCrop"
+        android:src="@drawable/img_foto"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/glContentPortfolio"
+        app:layout_constraintTop_toBottomOf="@+id/imgDegradePortfolio" />
+
+    <TextView
+        android:id="@+id/tvCurtoPortfolio"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginBottom="16dp"
+        android:drawableBottom="@drawable/ot_underline_text"
+        android:text="@string/txt_curto"
+        android:textColor="@color/colorDourado"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/glContentPortfolio"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvLongoPortfolio"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imgCurtoPorfolio"
+        android:layout_width="78dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="@string/desc_corte_curto"
+        android:scaleType="centerCrop"
+        android:src="@drawable/img_foto"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/glContentPortfolio"
+        app:layout_constraintTop_toBottomOf="@+id/imgLongoPortfolio"
+        app:layout_constraintVertical_bias="0.0" />
+
+</android.support.constraint.ConstraintLayout>
