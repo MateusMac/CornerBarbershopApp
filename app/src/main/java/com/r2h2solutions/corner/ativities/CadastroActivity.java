@@ -6,28 +6,30 @@ import android.view.View;
 import com.r2h2solutions.corner.R;
 
 /**
- * Classe onde se configura a parte de Login do usuário.
+ * Classe onde se configura o cadastro do usuário.
  *
  * @author Mateus Vieira Machado
  * @version 1.0.0
  * @since 1.0.0
  */
-public class LoginActivity extends BaseActivity {
+public class CadastroActivity extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
+        setContentView(R.layout.activity_cadastro);
     }
 
-    public void abrirCadastro(View view) {
+    public void abrirLogin(View view) {
 
-        openIntent(CadastroActivity.class);
+        openIntent(LoginActivity.class);
     }
 
-    public void abrirMenuPrincipal(View view) {
+    @Override
+    protected void onPause() {
 
-        //openIntent(MainActivity.class);
+        super.onPause();
+        finish();
     }
 }

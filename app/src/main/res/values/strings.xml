@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Corner</string>
 
+    <string name="txt_usuario">Usuário</string>
     <string name="txt_cpf">CPF</string>
     <string name="txt_senha">Senha</string>
     <string name="txt_entrar">Entrar</string>
@@ -9,6 +10,7 @@
     <string name="txt_nome">Nome</string>
     <string name="txt_email">E-mail</string>
     <string name="txt_cadastrar">Cadastrar</string>
+
     <string name="txt_portifolio">Portfólio</string>
     <string name="txt_cat_corte">Categorias de corte</string>
     <string name="txt_famosos">Famosos</string>
@@ -16,8 +18,6 @@
     <string name="txt_degrade">Degrade</string>
     <string name="txt_longo">Longo</string>
     <string name="txt_curto">Curto</string>
-
-    <string name="hint_usuario">Usuário</string>
 
     <string name="nav_home">Início</string>
     <string name="nav_agenda">Agenda</string>

@@ -18,8 +18,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity android:name=".ativities.LoginActivity" />
+        <activity android:name=".ativities.CadastroActivity" />
     </application>
 
 </manifest>
