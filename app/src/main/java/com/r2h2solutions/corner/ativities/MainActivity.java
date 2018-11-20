@@ -28,11 +28,11 @@ public class MainActivity extends BaseActivity {
 
     public void abrirAgenda(View view) {
 
-        //openIntent(AgendaActivity.class);
+        openIntent(AgendaActivity.class);
     }
 
     public void abrirFidelidade(View view) {
 
-        //openIntent(FidelidadeActivity.class);
+        openIntent(FidelidadeActivity.class);
     }
 }

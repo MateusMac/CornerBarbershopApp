@@ -29,7 +29,7 @@ public class BottomNavigationActivity extends BaseActivity {
                     return true;
                 case R.id.navigation_agenda:
 
-                    //openIntent(AgendaActivity.class);
+                    openIntent(AgendaActivity.class);
                     return true;
                 case R.id.navigation_portifolio:
 
@@ -37,7 +37,7 @@ public class BottomNavigationActivity extends BaseActivity {
                     return true;
                 case R.id.navigation_fidelidade:
 
-                    //openIntent(FidelidadeActivity.class);
+                    openIntent(FidelidadeActivity.class);
                     return true;
             }
             return false;

@@ -19,6 +19,8 @@
     <string name="txt_curto">Curto</string>
     <string name="txt_nome_barbeiro">Nome Barbeiro</string>
     <string name="txt_cortex">Corte X</string>
+    <string name="txt_cortes">Cortes</string>
+    <string name="txt_barbas">Barbas</string>
 
     <string name="nav_home">Início</string>
     <string name="nav_agenda">Agenda</string>

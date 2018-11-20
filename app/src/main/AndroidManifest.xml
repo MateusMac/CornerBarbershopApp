@@ -24,6 +24,8 @@
         <activity android:name=".ativities.PortfolioActivity" />
         <activity android:name=".ativities.DegradeActivity" />
         <activity android:name=".ativities.CorteXActivity" />
+        <activity android:name=".ativities.FidelidadeActivity" />
+        <activity android:name=".ativities.AgendaActivity" />
     </application>
 
 </manifest>
