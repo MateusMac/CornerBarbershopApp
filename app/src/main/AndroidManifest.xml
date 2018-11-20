@@ -22,6 +22,7 @@
         <activity android:name=".ativities.CadastroActivity" />
         <activity android:name=".ativities.MainActivity" />
         <activity android:name=".ativities.PortfolioActivity" />
+        <activity android:name=".ativities.DegradeActivity" />
     </application>
 
 </manifest>

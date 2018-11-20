@@ -4,37 +4,29 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ativities.PortfolioActivity"
-    tools:layout_editor_absoluteY="25dp">
+    tools:context=".ativities.DegradeActivity">
 
     <android.support.constraint.Guideline
-        android:id="@+id/glPortfolio"
+        android:id="@+id/glDegrade"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         app:layout_constraintGuide_percent="0.155" />
 
     <android.support.constraint.Guideline
-        android:id="@+id/glPortfolio2"
+        android:id="@+id/glDegrade2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         app:layout_constraintGuide_percent="0.91" />
 
-    <android.support.constraint.Guideline
-        android:id="@+id/glPortfolio3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.8" />
-
     <ScrollView
         android:layout_width="0dp"
         android:layout_height="0dp"
-        app:layout_constraintBottom_toTopOf="@+id/glPortfolio2"
+        app:layout_constraintBottom_toTopOf="@+id/glDegrade2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/glPortfolio">
+        app:layout_constraintTop_toTopOf="@+id/glDegrade">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -42,14 +34,14 @@
             android:orientation="vertical">
 
             <include
-                layout="@layout/content_activity_portfolio"
+                layout="@layout/content_activity_degrade"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
         </LinearLayout>
     </ScrollView>
 
     <include
-        android:id="@+id/includeNavTopPortfolio"
+        android:id="@+id/includeNavTopDegrade"
         layout="@layout/nav_top_activity"
         android:layout_width="0dp"
         android:layout_height="0dp"
@@ -59,49 +51,25 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/tvPortPortfolio"
+        android:id="@+id/tvDegDegrade"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
         android:background="@android:color/black"
+        android:drawableStart="@drawable/ic_arrow_left_24dp"
+        android:drawableEnd="@drawable/ic_arrow_right_24dp"
         android:paddingStart="@dimen/dim_pad_padrao"
-        android:paddingTop="5dp"
         android:paddingEnd="@dimen/dim_pad_padrao"
-        android:text="@string/txt_portfolio"
+        android:text="@string/txt_degrade"
+        android:textAlignment="center"
         android:textColor="@color/colorDourado"
         android:textSize="30sp"
         android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/glDegrade"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/tvCortesPortfolio"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:background="@android:color/black"
-        android:paddingStart="@dimen/dim_pad_padrao"
-        android:paddingTop="5dp"
-        android:paddingEnd="@dimen/dim_pad_padrao"
-        android:text="@string/txt_cat_corte"
-        android:textColor="@color/colorDourado"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvPortPortfolio" />
-
-    <ImageView
-        android:id="@+id/imgMaquinaPortfolio"
-        android:layout_width="78dp"
-        android:layout_height="0dp"
-        android:contentDescription="@string/desc_corte_famoso"
-        android:paddingTop="10dp"
-        android:paddingBottom="5dp"
-        android:scaleType="centerCrop"
-        android:src="@drawable/ic_hair_shaver_24dp"
-        app:layout_constraintBottom_toBottomOf="@+id/tvCortesPortfolio"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/glPortfolio3"
         app:layout_constraintTop_toTopOf="parent" />
 
 </android.support.constraint.ConstraintLayout>
