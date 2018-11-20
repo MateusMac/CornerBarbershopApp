@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ativities.LoginActivity">
+
+    <android.support.constraint.Guideline
+        android:id="@+id/glLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <ImageView
+        android:id="@+id/imgLogoLogin"
+        android:layout_width="0dp"
+        android:layout_height="92dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="8dp"
+        android:contentDescription="@string/desc_logo"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/glLogin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img_logo_corner" />
+
+    <EditText
+        android:id="@+id/etUsuarioLogin"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="16dp"
+        android:autofillHints="true"
+        android:background="@android:color/white"
+        android:ems="10"
+        android:hint="@string/hint_usuario"
+        android:inputType="textPersonName"
+        android:padding="@dimen/dim_pad_padrao"
+        android:textAlignment="textStart"
+        android:textColor="@android:color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgLogoLogin"
+        tools:targetApi="o" />
+
+    <EditText
+        android:id="@+id/etSenhaLogin"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:background="@android:color/white"
+        android:ems="10"
+        android:hint="@string/txt_senha"
+        android:importantForAutofill="no"
+        android:inputType="textPassword"
+        android:padding="@dimen/dim_pad_padrao"
+        android:singleLine="true"
+        android:textColor="@android:color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etUsuarioLogin"
+        tools:targetApi="o" />
+
+    <Button
+        android:id="@+id/btnEntrarLogin"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="32dp"
+        android:background="@android:color/black"
+        android:onClick="abrirMenuPrincipal"
+        android:text="@string/txt_entrar"
+        android:textAlignment="center"
+        android:textColor="@color/colorDourado"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etSenhaLogin" />
+
+    <TextView
+        android:id="@+id/tvCadastroLogin"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="abrirCadastro"
+        android:text="@string/txt_primeiro_acesso"
+        android:textAlignment="center"
+        android:textColor="@color/colorDourado"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnEntrarLogin"
+        app:layout_constraintVertical_bias="0.0" />
+
+</android.support.constraint.ConstraintLayout>
