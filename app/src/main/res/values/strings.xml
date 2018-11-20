@@ -21,6 +21,10 @@
     <string name="txt_cortex">Corte X</string>
     <string name="txt_cortes">Cortes</string>
     <string name="txt_barbas">Barbas</string>
+    <string name="txt_selecione_barbeiro">Selecione o barbeiro</string>
+    <string name="txt_selecione_data">29/10/2018</string>
+    <string name="txt_9h">09:00</string>
+    <string name="txt_10h">10:00</string>
 
     <string name="nav_home">Início</string>
     <string name="nav_agenda">Agenda</string>
