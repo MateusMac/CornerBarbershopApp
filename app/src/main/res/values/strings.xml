@@ -11,7 +11,7 @@
     <string name="txt_email">E-mail</string>
     <string name="txt_cadastrar">Cadastrar</string>
 
-    <string name="txt_portifolio">Portfólio</string>
+    <string name="txt_portfolio">Portfólio</string>
     <string name="txt_cat_corte">Categorias de corte</string>
     <string name="txt_famosos">Famosos</string>
     <string name="txt_enrolado">Enrolado</string>
@@ -21,7 +21,6 @@
 
     <string name="nav_home">Início</string>
     <string name="nav_agenda">Agenda</string>
-    <string name="nav_portifolio">Portfólio</string>
     <string name="nav_fidelidade">Fidelidade</string>
 
     <string name="desc_logo">Corner Logo</string>

@@ -5,5 +5,5 @@
     <color name="colorAccent">#D81B60</color>
     <color name="colorDarkGrey">#aaa</color>
     <color name="colorDourado">#e4bd81</color>
-
+    <color name="colorTransGrey">#5aaaaaaa</color>
 </resources>

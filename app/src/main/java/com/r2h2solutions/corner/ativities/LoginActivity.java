@@ -28,6 +28,14 @@ public class LoginActivity extends BaseActivity {
 
     public void abrirMenuPrincipal(View view) {
 
-        //openIntent(MainActivity.class);
+        openIntent(MainActivity.class);
+        finish();
+    }
+
+    @Override
+    public void onBackPressed() {
+
+        super.onBackPressed();
+        finish();
     }
 }
