@@ -31,8 +31,12 @@
     <string name="txt_agendado">Agendado com:</string>
     <string name="txt_agendar">Agendar</string>
     <string name="txt_barbeiro">Barbeiro</string>
-    <string name="tab_masculino">Masculino</string>
-    <string name="tab_feminino">Feminino</string>
+    <string name="txt_maquina">Máquina - R$ 30,00</string>
+    <string name="txt_corte">Corte - R$ 30,00</string>
+    <string name="txt_barba">Barba - R$ 19,90</string>
+    <string name="txt_corte_fem">Corte - R$ 40,00</string>
+    <string name="txt_escova">Escova - R$ 20,00</string>
+    <string name="txt_hidratacao">Hidratacao - R$ 45,00</string>
 
     <string name="nav_home">Início</string>
     <string name="nav_agenda">Agenda</string>
@@ -46,5 +50,7 @@
     <string name="desc_corte_curto">Corte curto</string>
     <string name="desc_foto_barbeiro">Foto do barbeiro</string>
 
-    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="tab_masculino">Masculino</string>
+    <string name="tab_feminino">Feminino</string>
+
 </resources>

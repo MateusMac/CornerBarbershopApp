@@ -6,6 +6,13 @@
     android:layout_height="match_parent"
     tools:context=".ativities.ServicoActivity">
 
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
     <TextView
         android:id="@+id/tvDataServico"
         android:layout_width="0dp"
@@ -52,19 +59,20 @@
         android:layout_marginBottom="24dp"
         android:text="@string/txt_agendado"
         android:textColor="@android:color/white"
-        app:layout_constraintBottom_toTopOf="@+id/btnContinuarServico"
+        app:layout_constraintBottom_toTopOf="@+id/btnAgendarServico"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.003"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/btnContinuarServico"
+        android:id="@+id/btnAgendarServico"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="72dp"
         android:layout_marginEnd="72dp"
         android:layout_marginBottom="24dp"
         android:background="@android:color/black"
+        android:onClick="abrirMain"
         android:text="@string/txt_agendar"
         android:textColor="@color/colorDourado"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -80,9 +88,50 @@
         android:layout_marginBottom="24dp"
         android:text="@string/txt_barbeiro"
         android:textColor="@android:color/white"
-        app:layout_constraintBottom_toTopOf="@+id/btnContinuarServico"
+        app:layout_constraintBottom_toTopOf="@+id/btnAgendarServico"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/tvAgendadoServico" />
+
+    <Button
+        android:id="@+id/btnMasculinoServico"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="62dp"
+        android:background="#aaa"
+        android:elevation="0dp"
+        android:onClick="abrirMasculino"
+        android:text="@string/tab_masculino"
+        app:layout_constraintEnd_toStartOf="@+id/guideline"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvHoraServico" />
+
+    <Button
+        android:id="@+id/btnFemininoServico"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#aaa"
+        android:onClick="abrirFeminino"
+        android:text="@string/tab_feminino"
+        app:layout_constraintBottom_toBottomOf="@+id/btnMasculinoServico"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toTopOf="@+id/btnMasculinoServico" />
+
+    <FrameLayout
+        android:id="@+id/frameServico"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="52dp"
+        android:background="#aaa"
+        android:elevation="0dp"
+        android:paddingTop="50dp"
+        app:layout_constraintBottom_toTopOf="@+id/tvAgendadoServico"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnMasculinoServico">
+
+    </FrameLayout>
 
 </android.support.constraint.ConstraintLayout>
