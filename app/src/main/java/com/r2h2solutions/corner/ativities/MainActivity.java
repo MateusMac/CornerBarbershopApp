@@ -35,4 +35,11 @@ public class MainActivity extends BaseActivity {
 
         openIntent(FidelidadeActivity.class);
     }
+
+    @Override
+    public void onBackPressed() {
+
+        super.onBackPressed();
+        finish();
+    }
 }

@@ -37,6 +37,12 @@
     <string name="txt_corte_fem">Corte - R$ 40,00</string>
     <string name="txt_escova">Escova - R$ 20,00</string>
     <string name="txt_hidratacao">Hidratacao - R$ 45,00</string>
+    <string name="dialog_titulo">Confirmar agendamento</string>
+    <string name="dialog_mensagem">Deseja confirmar o agendamento do serviço para 29/10 às 09h?</string>
+    <string name="sim">Sim</string>
+    <string name="nao">Não</string>
+    <string name="info_confirmado_agendamento">Agendamento confirmado</string>
+    <string name="info_cancelado_agendamento">Agendamento CANCELADO</string>
 
     <string name="nav_home">Início</string>
     <string name="nav_agenda">Agenda</string>

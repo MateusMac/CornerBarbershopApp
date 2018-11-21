@@ -1,5 +1,7 @@
 package com.r2h2solutions.corner.ativities;
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.os.Bundle;
 import android.support.v4.app.FragmentTransaction;
 import android.view.View;
@@ -48,9 +50,36 @@ public class ServicoActivity extends BaseActivity {
         transaction3.commit();
     }
 
-    public void abrirMain(View view) {
+    public void abrirDialog(View view) {
 
-        openIntent(MainActivity.class);
-        showToast("Serviço agendado com sucesso.");
+        AlertDialog.Builder dialog = new AlertDialog.Builder(this);
+
+        dialog.setTitle(getString(R.string.dialog_titulo));
+        dialog.setMessage(getString(R.string.dialog_mensagem));
+        dialog.setCancelable(false);
+        dialog.setIcon(android.R.drawable.ic_dialog_info);
+
+        dialog.setPositiveButton(getString(R.string.sim), new DialogInterface.OnClickListener() {
+
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+
+                finish();
+                openIntent(MainActivity.class);
+                showToast(getString(R.string.info_confirmado_agendamento));
+            }
+        });
+
+        dialog.setNegativeButton(getString(R.string.nao), new DialogInterface.OnClickListener() {
+
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+
+                showToast(getString(R.string.info_cancelado_agendamento));
+            }
+        });
+
+        dialog.create();
+        dialog.show();
     }
 }
