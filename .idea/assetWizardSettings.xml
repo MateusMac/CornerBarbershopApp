@@ -28,8 +28,9 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="outputName" value="ic_arrow_right_black_24dp" />
-                            <entry key="sourceFile" value="C:\Users\Mateus Vieira" />
+                            <entry key="assetSourceType" value="FILE" />
+                            <entry key="outputName" value="ic_hairstyle_less_24dp" />
+                            <entry key="sourceFile" value="M:\Documents\Android\Projetos\Trabalhos\Corner\app\src\main\res\drawable\hairstyle.svg" />
                           </map>
                         </option>
                       </PersistentState>

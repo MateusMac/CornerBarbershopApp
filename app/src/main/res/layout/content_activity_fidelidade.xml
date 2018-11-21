@@ -11,7 +11,7 @@
         android:id="@+id/tvCortesFidelidade"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
+        android:layout_marginStart="24dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
@@ -30,7 +30,7 @@
         android:id="@+id/tvBarbasFidelidade"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
+        android:layout_marginStart="24dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
@@ -43,5 +43,105 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvCortesFidelidade" />
+
+    <ImageView
+        android:id="@+id/imgCorteFidelidade"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="62dp"
+        android:contentDescription="@string/txt_cortes"
+        app:layout_constraintBottom_toTopOf="@+id/tvBarbasFidelidade"
+        app:layout_constraintEnd_toStartOf="@+id/imgCorteFidelidade2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvCortesFidelidade"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/ic_hairstyle_full_24dp" />
+
+    <ImageView
+        android:id="@+id/imgCorteFidelidade2"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:contentDescription="@string/txt_cortes"
+        app:layout_constraintBottom_toBottomOf="@+id/imgCorteFidelidade"
+        app:layout_constraintEnd_toStartOf="@+id/imgCorteFidelidade3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imgCorteFidelidade"
+        app:layout_constraintTop_toTopOf="@+id/imgCorteFidelidade"
+        app:srcCompat="@drawable/ic_hairstyle_full_24dp" />
+
+    <ImageView
+        android:id="@+id/imgCorteFidelidade3"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:contentDescription="@string/txt_cortes"
+        app:layout_constraintBottom_toBottomOf="@+id/imgCorteFidelidade2"
+        app:layout_constraintEnd_toStartOf="@+id/imgCorteFidelidade4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imgCorteFidelidade2"
+        app:layout_constraintTop_toTopOf="@+id/imgCorteFidelidade2"
+        app:srcCompat="@drawable/ic_hairstyle_full_24dp" />
+
+    <ImageView
+        android:id="@+id/imgCorteFidelidade4"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:contentDescription="@string/txt_cortes"
+        app:layout_constraintBottom_toBottomOf="@+id/imgCorteFidelidade3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imgCorteFidelidade3"
+        app:layout_constraintTop_toTopOf="@+id/imgCorteFidelidade3"
+        app:srcCompat="@drawable/ic_hairstyle_less_24dp" />
+
+    <ImageView
+        android:id="@+id/imgBarbaFidelidade"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/txt_cortes"
+        app:layout_constraintEnd_toStartOf="@+id/imgBarbaFidelidade2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvBarbasFidelidade"
+        app:srcCompat="@drawable/ic_beard_full_24dp" />
+
+    <ImageView
+        android:id="@+id/imgBarbaFidelidade2"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:contentDescription="@string/txt_cortes"
+        app:layout_constraintBottom_toBottomOf="@+id/imgBarbaFidelidade"
+        app:layout_constraintEnd_toStartOf="@+id/imgBarbaFidelidade3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imgBarbaFidelidade"
+        app:layout_constraintTop_toTopOf="@+id/imgBarbaFidelidade"
+        app:srcCompat="@drawable/ic_beard_full_24dp" />
+
+    <ImageView
+        android:id="@+id/imgBarbaFidelidade3"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:contentDescription="@string/txt_cortes"
+        app:layout_constraintBottom_toBottomOf="@+id/imgBarbaFidelidade2"
+        app:layout_constraintEnd_toStartOf="@+id/imgBarbaFidelidade4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imgBarbaFidelidade2"
+        app:layout_constraintTop_toTopOf="@+id/imgBarbaFidelidade2"
+        app:srcCompat="@drawable/ic_beard_less_24dp" />
+
+    <ImageView
+        android:id="@+id/imgBarbaFidelidade4"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:contentDescription="@string/txt_cortes"
+        app:layout_constraintBottom_toBottomOf="@+id/imgBarbaFidelidade3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imgBarbaFidelidade3"
+        app:layout_constraintTop_toTopOf="@+id/imgBarbaFidelidade3"
+        app:srcCompat="@drawable/ic_beard_less_24dp" />
 
 </android.support.constraint.ConstraintLayout>
