@@ -9,10 +9,10 @@
 
     <ImageView
         android:id="@+id/imgPrincipalCorteX"
-        android:layout_width="222dp"
-        android:layout_height="296dp"
+        android:layout_width="220dp"
+        android:layout_height="280dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:contentDescription="@string/desc_corte_degrade"
@@ -26,13 +26,11 @@
 
     <ImageView
         android:id="@+id/imgSecCorteX"
-        android:layout_width="222dp"
+        android:layout_width="0dp"
         android:layout_height="45dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp"
         android:contentDescription="@string/desc_corte_degrade"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imgPrincipalCorteX"
+        app:layout_constraintStart_toStartOf="@+id/imgPrincipalCorteX"
         app:layout_constraintTop_toBottomOf="@+id/imgPrincipalCorteX"
         app:srcCompat="@android:color/black" />
 
@@ -40,67 +38,62 @@
         android:id="@+id/tvCorteCorteX"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
         android:layout_marginTop="12dp"
-        android:layout_marginEnd="8dp"
         android:text="@string/txt_cortex"
         android:textAlignment="center"
         android:textColor="@color/colorDourado"
         android:textSize="18sp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imgSecCorteX"
+        app:layout_constraintStart_toStartOf="@+id/imgSecCorteX"
         app:layout_constraintTop_toBottomOf="@+id/imgSecCorteX" />
 
     <TextView
         android:id="@+id/tvDescCorteX"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
         android:text="@string/txt_degrade"
         android:textAlignment="center"
         android:textColor="@color/colorDourado"
         android:textSize="18sp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.15"
+        app:layout_constraintBottom_toBottomOf="@+id/tvDescCorteX2"
+        app:layout_constraintEnd_toStartOf="@+id/tvDescCorteX2"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvCorteCorteX" />
+        app:layout_constraintTop_toTopOf="@+id/tvDescCorteX2" />
 
     <TextView
         android:id="@+id/tvDescCorteX2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
         android:text="@string/txt_curto"
         android:textAlignment="center"
         android:textColor="@color/colorDourado"
         android:textSize="18sp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/tvDescCorteX3"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/tvDescCorteX"
-        app:layout_constraintTop_toBottomOf="@+id/tvCorteCorteX" />
+        app:layout_constraintTop_toBottomOf="@+id/tvCorteCorteX"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/tvDescCorteX3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
         android:text="@string/txt_famosos"
         android:textAlignment="center"
         android:textColor="@color/colorDourado"
         android:textSize="18sp"
         android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/tvDescCorteX2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/tvDescCorteX2"
-        app:layout_constraintTop_toBottomOf="@+id/tvCorteCorteX" />
+        app:layout_constraintTop_toTopOf="@+id/tvDescCorteX2" />
 
 </android.support.constraint.ConstraintLayout>
